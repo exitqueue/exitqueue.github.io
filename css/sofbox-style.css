@@ -5944,6 +5944,24 @@ PopUp Images Effect  Right
 
 
 
+.industrylist {
+  text-align: center;
+    height: 100%;
+    border-radius: 10px;
+    padding: 25px 20px;
+    box-shadow: 0 0 20px rgba(195,190,190,0.4) !important;
+
+    box-shadow: 0 0 15px rgba(0,0,0,.1);
+    position: relative;
+    /* margin: 0 0 40px; */
+    transition: all .5s ease 0s;
+    overflow: hidden;
+}
+
+.industrylist h4 {
+  font-size: 16px;
+  margin-top: 20px;
+}
 
 
 
@@ -11226,114 +11244,5 @@ blog post
 }
 
 
-.industrylist {
-  text-align: center;
-    height: 100%;
-    border-radius: 10px;
-    padding: 25px 20px;
-    box-shadow: 0 0 20px rgba(195,190,190,0.4) !important;
 
-    box-shadow: 0 0 15px rgba(0,0,0,.1);
-    position: relative;
-    /* margin: 0 0 40px; */
-    transition: all .5s ease 0s;
-    overflow: hidden;
-}
 
-.industrylist h4 {
-  font-size: 16px;
-  margin-top: 20px;
-}
-
-/* .industrylist :hover {
-  background: #fff;
-  z-index: 999;
-  box-shadow: 0 0 15px rgba(0,0,0,.3);
-  text-align: left;
-} */
-
-.bestiosAppDevelopment {
-
-  // largest mobile app development
-  .largestMobile {
-      header {
-          p {
-              color: map-get($theme, 200);
-          }
-      }
-
-      .customRow {
-          margin-left: -10px;
-          margin-right: -10px;
-
-          >.col,
-          >[class*="col-"] {
-              padding-right: 10px;
-              padding-left: 10px;
-          }
-      }
-
-      figure {
-          border-radius: 10px;
-          padding: 25px 20px;
-
-          h6 {
-              font-size: 16px;
-              margin-top: 20px;
-          }
-      }
-
-      @media (max-width:1366px) {
-          figure {
-              padding: 25px 10px;
-
-              h6 {
-                  font-size: 14px;
-              }
-          }
-      }
-
-      @include media-breakpoint-down(lg) {
-          figure {
-              min-height: 205px;
-          }
-      }
-
-      @include media-breakpoint-down(md) {
-          .customRow {
-              justify-content: center;
-              margin-top: 35px;
-
-              >.col,
-              >[class*="col-"] {
-                  flex: 0 0 33.33%;
-              }
-          }
-      }
-
-      @include media-breakpoint-down(xs) {
-          .customRow {
-              margin-top: 30px;
-
-              >.col,
-              >[class*="col-"] {
-                  flex: 0 0 33.33%;
-              }
-          }
-
-          figure {
-              min-height: 175px;
-              img{width: 45px}
-          }
-      }
-
-      @media(max-width: 425px) {
-          .customRow {
-
-              >.col,
-              >[class*="col-"] {
-                  flex: 0 0 50%;
-              }
-          }
-      }
-  }
