@@ -5779,6 +5779,22 @@ PopUp Images Effect  Right
 /*---------------------------------------------------------------------
  Box-effect style one( Feature box one)
 -----------------------------------------------------------------------*/
+
+
+
+.industrylist {
+  text-align: center;
+  height: 100%;
+  border-radius: 10px;
+  padding: 25px 20px;
+  box-shadow: 0 0 20px rgba(195, 190, 190, 0.4);
+
+  box-shadow: 0 0 15px rgba(0, 0, 0, .1);
+  position: relative;
+  /* margin: 0 0 40px; */
+  transition: all .5s ease 0s;
+  overflow: hidden;
+}
 .box-effect .icon-box span.country {
   margin-bottom: 30px;
   display: inline-block;
@@ -5944,24 +5960,9 @@ PopUp Images Effect  Right
 
 
 
-.industrylist {
-  text-align: center;
-    height: 100%;
-    border-radius: 10px;
-    padding: 25px 20px;
-    box-shadow: 0 0 20px rgba(195,190,190,0.4) !important;
 
-    box-shadow: 0 0 15px rgba(0,0,0,.1);
-    position: relative;
-    /* margin: 0 0 40px; */
-    transition: all .5s ease 0s;
-    overflow: hidden;
-}
 
-.industrylist h4 {
-  font-size: 16px;
-  margin-top: 20px;
-}
+
 
 
 
@@ -11242,7 +11243,3 @@ blog post
 #rev_slider_1_1 .nav-dir-horizontal {
   margin-top: 50px;
 }
-
-
-
-
