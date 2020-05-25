@@ -5779,7 +5779,16 @@ PopUp Images Effect  Right
 /*---------------------------------------------------------------------
  Box-effect style one( Feature box one)
 -----------------------------------------------------------------------*/
+.frontEnd__box h6 {
+  color: #000;
+  margin: 20px 0 10px;
+  font-size: 16px;
+}
 
+.frontEnd__box {
+  text-align: center;
+  padding: 0 30px;
+}
 
 
 .industrylist {
@@ -5795,6 +5804,7 @@ PopUp Images Effect  Right
   transition: all .5s ease 0s;
   overflow: hidden;
 }
+
 .box-effect .icon-box span.country {
   margin-bottom: 30px;
   display: inline-block;
@@ -11243,3 +11253,9 @@ blog post
 #rev_slider_1_1 .nav-dir-horizontal {
   margin-top: 50px;
 }
+
+
+
+
+
+
