@@ -5779,26 +5779,44 @@ PopUp Images Effect  Right
 /*---------------------------------------------------------------------
  Box-effect style one( Feature box one)
 -----------------------------------------------------------------------*/
-.frontEnd__box h6 {
+.frontEnd__box h5 {
   color: #000;
   margin: 20px 0 10px;
-  font-size: 16px;
+  /* font-size: 16px; */
 }
 
 .frontEnd__box {
   text-align: center;
-  padding: 0 30px;
+  padding: 20px 30px;
 }
 
+.frontEnd__box:hover {
+  -webkit-transition: all .2s;
+  -o-transition: all .2s;
+  transition: all .2s;
+  box-shadow: 5px 5px 17px 4px rgba(0, 0, 0, .08);
+}
+.frontEnd__box:hover h5{
+  -webkit-transition: all .2s;
+  -o-transition: all .2s;
+  transition: all .2s;
+  color: #2979c9;
+}
+.industries-bg {
+  background: #fbfbfb !important;
+
+}
 
 .industrylist {
   text-align: center;
   height: 100%;
   border-radius: 10px;
   padding: 25px 20px;
-  box-shadow: 0 0 20px rgba(195, 190, 190, 0.4);
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, .1);
+  margin-bottom: 10px;
+  /* box-shadow: 0 0 20px rgba(195, 190, 190, 0.4); */
 
-  box-shadow: 0 0 15px rgba(0, 0, 0, .1);
+  /* box-shadow: 0 0 15px rgba(0, 0, 0, .1); */
   position: relative;
   /* margin: 0 0 40px; */
   transition: all .5s ease 0s;
@@ -11253,9 +11271,3 @@ blog post
 #rev_slider_1_1 .nav-dir-horizontal {
   margin-top: 50px;
 }
-
-
-
-
-
-
