@@ -5787,7 +5787,10 @@ PopUp Images Effect  Right
 
 .frontEnd__box {
   text-align: center;
-  padding: 20px 30px;
+  padding: 30px 30px;
+  border: 1px solid #dedede;
+  height: 100%;
+  /* box-shadow: 5px 5px 17px 4px rgba(0, 0, 0, .08); */
 }
 
 .frontEnd__box:hover {
