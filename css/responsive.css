@@ -220,7 +220,8 @@
     .custom-tab.horizontaltab-slider ul li:last-child{margin-bottom: 0px;}
     .custom-tab.horizontaltab-slider .tab-pane.active {padding: 20px 77px 50px;}
 
-    ul.arvr-headset {padding-right: 0px;}
+	ul.arvr-headset {padding-right: 0px;}
+	.frontEnd__box {box-shadow: 5px 5px 17px 4px rgba(0, 0, 0, .08); border: none; border-radius: 10px;}
 }
 
 @media(max-width:527px) {
