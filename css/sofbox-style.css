@@ -5805,10 +5805,10 @@ PopUp Images Effect  Right
   transition: all .2s;
   color: #2979c9;
 }
-.industries-bg {
+/* .industries-bg {
   background: #fbfbfb !important;
 
-}
+} */
 
 .industrylist {
   text-align: center;
