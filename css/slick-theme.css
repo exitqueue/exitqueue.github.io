@@ -4,8 +4,7 @@
 
 /* Arrows */
 .slick-prev,
-.slick-next
-{
+.slick-next {
     font-size: 0;
     line-height: 0;
 
@@ -28,31 +27,30 @@
     outline: none;
     background: transparent;
 }
+
 .slick-prev:hover,
 .slick-prev:focus,
 .slick-next:hover,
-.slick-next:focus
-{
+.slick-next:focus {
     color: transparent;
     outline: none;
     background: transparent;
 }
+
 .slick-prev:hover:before,
 .slick-prev:focus:before,
 .slick-next:hover:before,
-.slick-next:focus:before
-{
+.slick-next:focus:before {
     opacity: 1;
 }
+
 .slick-prev.slick-disabled:before,
-.slick-next.slick-disabled:before
-{
+.slick-next.slick-disabled:before {
     opacity: .25;
 }
 
 .slick-prev:before,
-.slick-next:before
-{
+.slick-next:before {
     font-family: 'slick';
     font-size: 20px;
     line-height: 1;
@@ -64,50 +62,46 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-.slick-prev
-{
+.slick-prev {
     left: -25px;
 }
-[dir='rtl'] .slick-prev
-{
+
+[dir='rtl'] .slick-prev {
     right: -25px;
     left: auto;
 }
-.slick-prev:before
-{
+
+.slick-prev:before {
     content: '←';
 }
-[dir='rtl'] .slick-prev:before
-{
+
+[dir='rtl'] .slick-prev:before {
     content: '→';
 }
 
-.slick-next
-{
+.slick-next {
     right: -25px;
 }
-[dir='rtl'] .slick-next
-{
+
+[dir='rtl'] .slick-next {
     right: auto;
     left: -25px;
 }
-.slick-next:before
-{
+
+.slick-next:before {
     content: '→';
 }
-[dir='rtl'] .slick-next:before
-{
+
+[dir='rtl'] .slick-next:before {
     content: '←';
 }
 
 /* Dots */
-.slick-dotted.slick-slider
-{
+.slick-dotted.slick-slider {
     margin-bottom: 30px;
 }
 
-.slick-dots
-{
+.slick-dots {
     position: absolute;
     bottom: -25px;
 
@@ -121,8 +115,8 @@
 
     text-align: center;
 }
-.slick-dots li
-{
+
+.slick-dots li {
     position: relative;
 
     display: inline-block;
@@ -134,8 +128,8 @@
 
     cursor: pointer;
 }
-.slick-dots li button
-{
+
+.slick-dots li button {
     font-size: 0;
     line-height: 0;
 
@@ -152,18 +146,18 @@
     outline: none;
     background: transparent;
 }
+
 .slick-dots li button:hover,
-.slick-dots li button:focus
-{
+.slick-dots li button:focus {
     outline: none;
 }
+
 .slick-dots li button:hover:before,
-.slick-dots li button:focus:before
-{
+.slick-dots li button:focus:before {
     opacity: 1;
 }
-.slick-dots li button:before
-{
+
+.slick-dots li button:before {
     font-family: 'slick';
     font-size: 6px;
     line-height: 20px;
@@ -184,79 +178,9 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-.slick-dots li.slick-active button:before
-{
+
+.slick-dots li.slick-active button:before {
     opacity: .75;
     color: black;
 }
 
-		/* CSS Multiple Whatsapp Chat */
-        .whatsapp-name {
-            font-size: 16px;
-            font-weight: 600;
-            padding-bottom: 0;
-            margin-bottom: 0;
-            line-height: 0.5;
-          }
-          
-          #whatsapp-chat {
-            box-sizing: border-box !important;
-          
-            outline: none !important;
-            position: fixed;
-            width: 350px;
-            border-radius: 10px;
-            box-shadow: 0 1px 15px rgba(32, 33, 36, 0.28);
-            bottom: 90px;
-            right: 30px;
-            overflow: hidden;
-            z-index: 99;
-            animation-name: showchat;
-            animation-duration: 1s;
-            transform: scale(1);
-          }
-          a.blantershow-chat {
-            /*   background: #009688; */
-            background: #fff;
-            color: #404040;
-            position: fixed;
-            display: flex;
-            font-weight: 400;
-            justify-content: space-between;
-            z-index: 98;
-            bottom: 25px;
-            right: 30px;
-            font-size: 15px;
-            padding: 10px 20px;
-            border-radius: 30px;
-            box-shadow: 0 1px 15px rgba(32, 33, 36, 0.28);
-          }
-          a.blantershow-chat svg {
-            transform: scale(1.2);
-            margin: 0 10px 0 0;
-          }
-          .header-chat {
-            /*   background: linear-gradient(to right top, #6f96f3, #164ed2); */
-            background: #009688;
-            background: #095e54;
-            color: #fff;
-            padding: 20px;
-          }
-          .header-chat h3 {
-            margin: 0 0 10px;
-          }
-          .header-chat p {
-            font-size: 14px;
-            line-height: 1.7;
-            margin: 0;
-          }
-          .info-avatar {
-            position: relative;
-          }
-          .info-avatar img {
-            border-radius: 100%;
-            width: 50px;
-            float: left;
-            margin: 0 10px 0 0;
-          }
-          
