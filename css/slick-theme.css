@@ -189,3 +189,74 @@
     opacity: .75;
     color: black;
 }
+
+		/* CSS Multiple Whatsapp Chat */
+        .whatsapp-name {
+            font-size: 16px;
+            font-weight: 600;
+            padding-bottom: 0;
+            margin-bottom: 0;
+            line-height: 0.5;
+          }
+          
+          #whatsapp-chat {
+            box-sizing: border-box !important;
+          
+            outline: none !important;
+            position: fixed;
+            width: 350px;
+            border-radius: 10px;
+            box-shadow: 0 1px 15px rgba(32, 33, 36, 0.28);
+            bottom: 90px;
+            right: 30px;
+            overflow: hidden;
+            z-index: 99;
+            animation-name: showchat;
+            animation-duration: 1s;
+            transform: scale(1);
+          }
+          a.blantershow-chat {
+            /*   background: #009688; */
+            background: #fff;
+            color: #404040;
+            position: fixed;
+            display: flex;
+            font-weight: 400;
+            justify-content: space-between;
+            z-index: 98;
+            bottom: 25px;
+            right: 30px;
+            font-size: 15px;
+            padding: 10px 20px;
+            border-radius: 30px;
+            box-shadow: 0 1px 15px rgba(32, 33, 36, 0.28);
+          }
+          a.blantershow-chat svg {
+            transform: scale(1.2);
+            margin: 0 10px 0 0;
+          }
+          .header-chat {
+            /*   background: linear-gradient(to right top, #6f96f3, #164ed2); */
+            background: #009688;
+            background: #095e54;
+            color: #fff;
+            padding: 20px;
+          }
+          .header-chat h3 {
+            margin: 0 0 10px;
+          }
+          .header-chat p {
+            font-size: 14px;
+            line-height: 1.7;
+            margin: 0;
+          }
+          .info-avatar {
+            position: relative;
+          }
+          .info-avatar img {
+            border-radius: 100%;
+            width: 50px;
+            float: left;
+            margin: 0 10px 0 0;
+          }
+          
