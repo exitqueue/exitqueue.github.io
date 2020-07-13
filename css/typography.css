@@ -237,7 +237,9 @@ section { padding: 120px 0; }
 .main-content{ overflow-x: hidden;}
 .container-fluid { padding: 0 100px; }
 .overflow ,.main-content.overflow {overflow:visible;}
-.iq-border-top{border-top: 1px solid rgba(142, 152, 159, 0.13)}
+.iq-border-top {
+  border-top: 1px solid rgb(222, 222, 222);
+}
 .overflow-hidden{overflow: hidden;}
 /*---------------------------------------------------------------------
                                 Loader

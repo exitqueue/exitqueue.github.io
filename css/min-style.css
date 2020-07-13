@@ -2504,7 +2504,30 @@ article.hentry .iq-blog-detail .blog-content .page-links a:hover {
   -webkit-transition: all 0.5s ease-in-out;
   z-index: 3;
 }
-
+.count-flag {
+  display: flex;
+  margin-bottom: 15px;
+}
+.count-flag h4 {
+  padding-left: 10px;
+  color: #fff;
+  font-size: 18px;
+}
+.footer-addre-content p {
+  color: #e6e6e6;
+}
+.footer-addre-content a {
+  color: #e6e6e6;
+}
+.iq-copyright {
+  float: left;
+}
+.list-inline  {
+  text-align: right;
+}
+.list-inline-item a {
+  color: #fff;
+}
 .consult-detail {
   overflow: hidden;
   position: relative;
@@ -2569,7 +2592,7 @@ article.hentry .iq-blog-detail .blog-content .page-links a:hover {
  Footer
 -----------------------------------------------------------------------*/
 footer {
-  padding: 75px 0;
+  padding: 75px 0 30px;
 }
 
 footer .iq-subscribe {
@@ -2681,7 +2704,7 @@ footer.footer-one.footer-shap .container:after {
   bottom: 0;
   height: 238px;
   left: 0;
-  z-index: 0;
+  z-index: -1;
   width: 100%;
   content: "";
   background: url(../images/home-2/footer.png)no-repeat;
@@ -3302,7 +3325,7 @@ footer .copyright-space {
   position: absolute;
   top: 1px;
   width: 100%;
-  z-index: 0;
+  z-index: -1;
   background-image: -moz-linear-gradient(0deg, rgb(109, 115, 239) 0%, rgb(163, 120, 252) 100%);
   background-image: -webkit-linear-gradient(0deg, #5ec8b1 0%, #2979c9 100%);
   background-image: -ms-linear-gradient(0deg, rgb(109, 115, 239) 0%, rgb(163, 120, 252) 100%);
