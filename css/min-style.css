@@ -2504,30 +2504,38 @@ article.hentry .iq-blog-detail .blog-content .page-links a:hover {
   -webkit-transition: all 0.5s ease-in-out;
   z-index: 3;
 }
+
 .count-flag {
   display: flex;
   margin-bottom: 15px;
 }
+
 .count-flag h4 {
   padding-left: 10px;
   color: #fff;
   font-size: 18px;
 }
+
 .footer-addre-content p {
   color: #e6e6e6;
 }
+
 .footer-addre-content a {
   color: #e6e6e6;
 }
+
 .iq-copyright {
   float: left;
 }
-.list-inline  {
+
+.list-inline {
   text-align: right;
 }
+
 .list-inline-item a {
   color: #fff;
 }
+
 .consult-detail {
   overflow: hidden;
   position: relative;
@@ -11378,22 +11386,49 @@ a.blantershow-chat svg {
   float: left;
   margin: 0 10px 0 0;
 }
+
+h1.custom-heading {
+  font-size: 45px !important;
+  line-height: 75px !important;
+  text-align: center !important;
+  font-style: normal;
+  font-weight: 700;
+ 
+  color: #353535;
+  margin: 0px 0px 5px;
+  text-align: center;
+  visibility: visible;
+  letter-spacing: 0px;
+}
+@media (max-width: 767px) {
+  h1.custom-heading {
+    font-size: 24px !important;
+    line-height: 40px !important;
+    text-align: center !important;
+}
+}
+
+
 /*---------------------------------------------------------------------
                           Privecy _term Conditionb
 -----------------------------------------------------------------------*/
 .common_section {
   padding: 120px 0px;
 }
+
 .wrap-in {
   border: 1px solid #ececec;
 }
+
 .wrap-in .content {
   padding: 30px;
 }
+
 .wrap-in .page-head {
   border-bottom: 1px solid #ececec;
   padding: 20px 30px;
 }
+
 .wrap-in .page-head .center-heading h1 {
   font-size: 32px;
   margin: 0;
@@ -11408,11 +11443,12 @@ a.blantershow-chat svg {
 }
 
 @media (max-width: 1680px) {
-.wrap-in .page-head {
+  .wrap-in .page-head {
     padding: 15px 15px;
-}
-.wrap-in .content {
-  padding: 15px;
-}
+  }
+
+  .wrap-in .content {
+    padding: 15px;
+  }
 
 }
