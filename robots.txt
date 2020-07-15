@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: 
+Allow: /
+
+
+
+Sitemap: https://exitqueue.com/sitemap.xml
